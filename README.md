@@ -1,3 +1,5 @@
+# To run the file, first save an audio file and use command "python ssb.py" to run the file through terminal.
+
 # SSB Modulation and Demodulation Implementation in Python
 
 This Python script implements Single Sideband (SSB) Amplitude Modulation and Demodulation. It provides a comprehensive demonstration of the SSB process, including signal processing, visualization, and audio playback. Here's a breakdown of its main components and functionality:
