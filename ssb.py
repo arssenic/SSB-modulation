@@ -214,7 +214,7 @@ def plot_static_graphs(t, signals, demodulated_signal, fs):
     plt.show()
 
 # Load and preprocess the audio file
-fs, audio = wavfile.read("audio.wav") #The audio file should be in #.wav format
+fs, audio = wavfile.read("audio.wav") #The audio file should be in .wav format
 if len(audio.shape) > 1:  # If stereo, select one channel
     audio = audio[:, 0]
 audio = audio.astype(float) / np.max(np.abs(audio))  # Normalize audio
