@@ -1,4 +1,4 @@
-# To run the file, first save an audio file and use command "python ssb.py" to run the file through terminal.
+# To run the file, first save an audio file in the respective directory and use command "python ssb.py" to run the file through terminal.
 
 # SSB Modulation and Demodulation Implementation in Python
 
